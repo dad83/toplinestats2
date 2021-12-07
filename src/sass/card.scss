@@ -1,0 +1,36 @@
+.card {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    border: black 0.5px solid;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+
+    .textside {
+        margin: 2rem;
+        text-decoration: none;
+        width: 90%;
+    }
+
+    .title {
+    }
+
+    .subtitle {
+        text-decoration: none;
+    }
+
+    .author {
+        text-decoration: none;
+    }
+
+    .category {
+        text-decoration: none;
+    }
+
+    .img {
+        width: 20rem;
+        height: 20rem;
+    }
+}
