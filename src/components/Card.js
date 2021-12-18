@@ -19,20 +19,24 @@ function Card({title, subtitle, category, author, thumbnail}) {
    const cardHash = hashString(title);
 
     return (
-      <div className={"h-1/6 w-5/6 grid grid-cols-2 grid-row-1"}>
-          <div className={"flex bg-red-100"}>
-            <Link to={`article/${cardHash}`}>
-                <Image className={"w-1/4 h-1/6"} content={thumbnail} />
-            </Link>
-          </div>
-          <div className={"flex bg-blue-100"}>
-               <div className={"h-1/2 grid grid-cols-1 grid-row-4"}>
-                  <h1 className={"lg:text-2xl"}>{title}</h1>
-                  <h2 className={"lg:text-xl"}>{subtitle}</h2>
-                  <h3 className={"lg:text-lg"}>{author}</h3>
-                  <h3 className={"lg:text-lg"}>{category}</h3>
+      <div className={"w-11/12 grid grid-cols-9 border-black grid-row-1 my-4 m-auto border-t border-b mb-4 hmove"}>
+          <div className={"grid col-span-7 my-2"}>
+               <div className={""}>
+               <Link to={`article/${cardHash}`}>
+                  <h3 style={{color: "#065A82"}} className={"flex lg:text-lg font-sans text-opacity-75"}>{category}</h3>
+                  <h1 style={{color: "#161A3C"}} className={"flex lg:text-2xl font-sans font-bold"}>{title}</h1>
+                  <h3 style={{color: "#161A3C"}}  className={"flex lg:text-lg font-sans font-extralight"}>{author}</h3>
+               </Link>
                </div>
           </div>
+          <div className={" grid col-span-2 my-2"}>
+            <Link to={`article/${cardHash}`}>
+              <div className={"my-auto"}>
+                <img className={"object-scale-down m-4 w-3/4 h-3/4 "} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"} />
+              </div>
+            </Link>
+          </div>
+          
       </div>
     );
   }

@@ -2,3 +2,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    color: #102242;
+}
+
+.hcolor:hover {
+    color: #065A82;
+    font-style: italic;
+}
+
+.hmove:hover {
+    transform: scale(1.02);
+}
+
+@font-face {
+    font-family: "titlefont";
+    font-weight: 900;
+    src: url("fonts/LemonMilkMediumItalic-d95nl.otf");
+}
+
+.titlefontstyle {
+    font-family: "titlefont";
+}
+

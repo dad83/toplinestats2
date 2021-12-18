@@ -57,11 +57,11 @@ function Article() {
 
     return (
       <div className="m-auto w-3/4">
+          <Image content={thumbnail} />  
           <h1 className="md:text-4xl text-lg text-center" >{title}</h1>
           <h3 className="md:text-3xl text-base text-center">{subtitle}</h3>
           <h2 className="md:text-3xl text-base text-center">{`By: ${author}`}</h2>
-          <h5 className="md:text-2xl text-sm text-center">{date}</h5>  
-          <Image content={thumbnail} />  
+          <h5 className="md:text-2xl text-sm text-center">{date}</h5> 
           <div className="m-auto">
           {body.map((item,index) => {
               return getComponent(item,index)
