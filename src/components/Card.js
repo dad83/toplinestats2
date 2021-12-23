@@ -32,7 +32,7 @@ function Card({title, subtitle, category, author, thumbnail}) {
           <div className={" grid col-span-2 my-2"}>
             <Link to={`article/${cardHash}`}>
               <div className={"my-auto"}>
-                <img className={"object-scale-down m-4 w-3/4 h-3/4 "} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"} />
+                <img className={"object-scale-down m-4 w-3/4 h-3/4 "} src={thumbnail} />
               </div>
             </Link>
           </div>
