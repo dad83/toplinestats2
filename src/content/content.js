@@ -2,10 +2,10 @@ export const articles = [
         {
             title: `Can we guess the political affiliation of states without looking at votes?`,
             subtitle: `A cluster analysis of states based on different metrics like poverty rate, union membership, and religious demographics.`,
-            author: `Devon Andrew Davila,`,
+            author: `Devon Andrew Davila`,
             category: "Politics",
             date: "October 29, 2021",
-            thumbnail: "https://toplinestats.com/stateclusterimg1.png",
+            thumbnail: "https://imgur.com/17MPaIZ",
             body: [
                 {
                     type: "text",
@@ -17,7 +17,7 @@ export const articles = [
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/statescolumns.png",
+                    content: "https://imgur.com/ODjlZPc",
                 },
                 {
                     type: "paragraph",
@@ -44,7 +44,7 @@ export const articles = [
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/scaledstates.png",
+                    content: "https://imgur.com/D8hPvV0",
                 },
                 {
                     type: "text",
@@ -52,7 +52,7 @@ export const articles = [
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/stateclusterimg3.png",
+                    content: "https://imgur.com/QUZ3qRb",
                 },
                 {
                     type: "text",
@@ -60,11 +60,11 @@ export const articles = [
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/stateclusterimg4.png",
+                    content: "https://imgur.com/hGBKC9O",
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/stateclusterimg5.png",
+                    content: "https://imgur.com/kfAVjux",
                 },
                 {
                     type: "text",
@@ -72,7 +72,7 @@ export const articles = [
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/stateclusterimg6.png",
+                    content: "https://imgur.com/17MPaIZ",
                 },
                 {
                     type: "paragraph",
