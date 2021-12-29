@@ -2,7 +2,7 @@ export const articles = [
                 {
             title: `Can we guess the political affiliation of states without looking at votes?`,
             subtitle: `A cluster analysis of states based on different metrics like poverty rate, union membership, and religious demographics.`,
-            author: `Devon Andrew Davila,`,
+            author: `Devon Andrew Davila`,
             category: "Politics",
             date: "October 29, 2021",
             thumbnail: "https://toplinestats.com/stateclusterimg1.png",
@@ -68,7 +68,7 @@ export const articles = [
                 },
                 {
                     type: "text",
-                    context: `I've inverted the x axis here for a bit of visualization help, with blue states on the left and red on the right. But without knowing which states are which, this is pretty meaningless. So let's head to Tableau-`
+                    content: `I've inverted the x axis here for a bit of visualization help, with blue states on the left and red on the right. But without knowing which states are which, this is pretty meaningless. So let's head to Tableau-`
                 },
                 {
                     type: "image",
@@ -80,7 +80,7 @@ export const articles = [
                 },
                 {
                     type: "text",
-                    context: `So how well does this fare against results from the most recent presidential election?`
+                    content: `So how well does this fare against results from the most recent presidential election?`
                 },
                 {
                     type: "paragraph",
