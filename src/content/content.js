@@ -5,7 +5,7 @@ export const articles = [
             author: `Devon Andrew Davila`,
             category: "Politics",
             date: "October 29, 2021",
-            thumbnail: "https://imgur.com/17MPaIZ",
+            thumbnail: "<https://i.ibb.co/F8Cm898/stateclusterimg6.png",
             body: [
                 {
                     type: "text",
@@ -166,7 +166,7 @@ export const articles = [
                 },
                 {
                     type: "image",
-                    content: "https://toplinestats.com/stateclusterimg6.png",
+                    content: "https://i.ibb.co/F8Cm898/stateclusterimg6.png",
                 },
                 {
                     type: "paragraph",
