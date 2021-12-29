@@ -68,7 +68,7 @@ export const articles = [
                 },
                 {
                     type: "text",
-                    content: `I've inverted the x axis here for a bit of visualization help, with blue states on the left and red on the right. But without knowing which states are which, this is pretty meaningless. So let's head to Tableau-`
+                    context: `I've inverted the x axis here for a bit of visualization help, with blue states on the left and red on the right. But without knowing which states are which, this is pretty meaningless. So let's head to Tableau-`
                 },
                 {
                     type: "image",
@@ -80,7 +80,7 @@ export const articles = [
                 },
                 {
                     type: "text",
-                    content: `So how well does this fare against results from the most recent presidential election?`
+                    context: `So how well does this fare against results from the most recent presidential election?`
                 },
                 {
                     type: "paragraph",
@@ -91,8 +91,6 @@ export const articles = [
                     content: `So what, if anything, does this model tell us? My read is that, if the model is to be trusted, Republicans seem to have a bit of room to grow into untapped territory. Specifically, I would be curious to know why the model misidentified New Mexico- is this an opportunity for Republicans? Maybe with the right candidate they can thrive in the states identified here.`
                 },
 
-            ],
-        },
             ],
         }
     ]
