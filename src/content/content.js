@@ -1,19 +1,51 @@
 export const articles = [
                 {
-            title: `Can we guess the political affiliation of states without looking at votes?`,
-            subtitle: `A cluster analysis of states based on different metrics like poverty rate, union membership, and religious demographics.`,
+            title: `A breif analysis of various fantasy baseball scoring systems`,
+            subtitle: `The rise of fantasy baseball led to a more analytics-driven baseball world. But what can scoring systems tell us about the value of players as they compare to traditional metrics?`,
             author: `Devon Andrew Davila`,
-            category: "Politics",
-            date: "October 29, 2021",
-            thumbnail: "https://toplinestats.com/stateclusterimg1.png",
+            category: "Baseball",
+            date: "October 17, 2021",
+            thumbnail: "https://toplinestats.com/bwarfantasy.png",
             body: [
                 {
                     type: "text",
-                    content: `Forget the polls- can we figure out how states will vote based on demographic and behavioral information?`,
+                    content: `Baseball simulations are nearly as old as the game itself, dating back to at least 1866 with the advent of primitive tabletop games, gradually evolving into a meticulously detailed baseball card game (featuring imaginary competitions curated and recorded by legendary American novelist Jack Kerouac), and eventually arriving at the famous Rotisserie League led by sports journalist Daniel Okrent. The influence of baseball on fantasy sports is unquestionable- but what can fantasy scoring systems tell us about baseball?`,
                 },
                 {
+                    type: "text",
+                    content: `Before taking a look at the data, let's first define our research question:`,
+                },
+            {
                     type: "paragraph",
-                    content: `To explore this question, I've put together a small dataset containing information pulled from the web about the demographic makeup of each state (excluding D.C.) The data I'll be looking at contains the following information:`,
+                    content: `What is the relationship between fantasy baseball scoring systems and traditional measures of player value?`,
+                },
+              {
+                    type: "text",
+                    content: `Specifically, let's look at fantasy scoring methods from head-to-head matchups where the scoring is straightforward (for the sake of simplicity, let's looks at batting statistics only). ESPN's scoring system awards as follows:`,
+                },
+              {
+                    type: "text",
+                    content: `-Total bases - 1 point each`,
+                },
+              {
+                    type: "text",
+                    content: `-RBI - 1 point`,
+                },
+              {
+                    type: "text",
+                    content: `-Run scored - 1 point`,
+                },
+              {
+                    type: "text",
+                    content: `-Stolen base - 1 point`,
+                },
+              {
+                    type: "text",
+                    content: `-Walk - 1 point`,
+                },
+              {
+                    type: "text",
+                    content: `-Strikeout - minus 1 point`,
                 },
                 {
                     type: "image",
